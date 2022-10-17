@@ -1,0 +1,28 @@
+{
+  "name": "aula_8_9_testemock",
+  "version": "1.0.0",
+  "description": "Repositório para as atividades 8 e 9 do laboratório de C214",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauracdias/Aula_8_9_TesteMock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauracdias/Aula_8_9_TesteMock/issues"
+  },
+  "homepage": "https://github.com/lauracdias/Aula_8_9_TesteMock#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "moongose": "^1.0.0",
+    "uuid": "^9.0.0",
+    "validate.js": "^0.13.1"
+  }
+}
