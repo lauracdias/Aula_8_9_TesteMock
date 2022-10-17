@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest --coverage"
+    "test": "jest --detectOpenHandles --testEnvironment=node --runInBand --coverage --forceExit"
   },
   "repository": {
     "type": "git",
